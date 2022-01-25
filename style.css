@@ -1,0 +1,71 @@
+:root{
+    primary:#ffe66d;
+    secondary:ff6b6b;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+/* font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Quattrocento Sans', sans-serif; */
+}
+
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.navbar,.intro{
+   font-family: 'Handlee', cursive; 
+}
+.hero{
+    /* background:url(assets/blob-scene-haikei.png) no-repeat center center ; */
+    height:60vh;
+    background-size: cover;
+
+}
+/* .navbar-nav{
+    margin-left: auto;
+} */
+.hero-hello,.hero-code{
+    font-size:3em;
+    font-weight: bold;
+    color:#0C2E3F;
+    margin-left:10vh;
+}
+
+.namastey{
+    color:red;
+    font-size:1.2em;
+}
+.intro{
+   margin: 2vh 0 0 12vh; 
+   font-size:3vh;
+}
+.nav-link:hover{
+    font-size:1.5em;
+}
+.topLine{
+    max-height: 9%;
+    margin-top:-30px;
+}
+.experience{
+    font-family: 'Quattrocento Sans', sans-serif; 
+    border:1px red solid;
+    text-align: center;
+}
+.isConnection{
+    font-size:5vh;
+    margin-left: 15vh;
+}
+@media(max-width:768px){
+    *{
+        font-size:small;
+    }
+   .hero-code{
+       font-size: 3vh;
+       margin-top: 5vh;
+       text-align: center;
+       margin-right: 5vh;
+   }
+
+}
