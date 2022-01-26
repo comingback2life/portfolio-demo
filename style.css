@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar-nav{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.wrapper{
+    background: #fff100;
+    height:100vh;
+    border-image-source: url('./assets/bg.svg') 3px solid;
+}
+.myCol{
+    background: url(./assets/A64C21CB-F84E-49DF-B346-FD2476D9BDCD-removebg-preview.png) no-repeat center center;
+    height:100vh;
+}
+.introHello{
+    background:#FFF75E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.testCol{
+    margin-left: auto;
+    background: #FFF75E;
+}
+.namaskar{
+    font-family: 'Handlee', cursive;
+    font-size: 2rem;
+}
+.namaskar::first-letter{
+    color:red;
+}
+.introCol{
+    font-size:18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+}
+.display-7>a,a:visited{
+    color:black;
+    text-decoration: none;
+}
+.whyMe{
+    height:fit-content;
+    display: flex;
+    background: #F6F7F9;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ideaClass{
+   font-size:22px;
+}
+.t3{
+    border:1px black solid;
+}
+.buildOne,.ideaCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillSet{
+
+}
