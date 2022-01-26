@@ -64,7 +64,6 @@
     align-items: center;
 }
 .skillSet{
-    height:fit;
     background: #282736;
 }
 .skillSet>.row>.display-4{
@@ -77,8 +76,9 @@
 .skillSet>.row>.col{
     display: flex;
     color:white;
-    font-size:10vh
+    font-size:10vh;
+    justify-content: space-evenly;
 }
-.skillSet>.row>.col,.div{
-   justify-content: space-evenly;
+.myPort{
+    background: #C4C4C4;
 }
