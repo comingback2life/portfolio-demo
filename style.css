@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
 }
-.navbar-nav{
+.navbar-nav,.card-text{
     font-family: 'Quattrocento Sans', sans-serif;
 }
 .navbar-brand{
@@ -80,5 +80,22 @@
     justify-content: space-evenly;
 }
 .myPort{
-    background: #C4C4C4;
+    background: white;
+}
+
+.card{
+    width: minmax(300px,100%);
+    min-height:300px;
+    border-radius:5px;
+}
+.card>img{
+    max-height: 20vh;
+}
+.card-text{
+    margin-top:15px;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+.techUsed{
+    display: inline-block;
 }
