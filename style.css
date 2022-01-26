@@ -64,5 +64,21 @@
     align-items: center;
 }
 .skillSet{
-
+    height:fit;
+    background: #282736;
+}
+.skillSet>.row>.display-4{
+    color:white;
+    text-align:center;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+.skillSet>.row>.col{
+    display: flex;
+    color:white;
+    font-size:10vh
+}
+.skillSet>.row>.col,.div{
+   justify-content: space-evenly;
 }
