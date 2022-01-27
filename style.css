@@ -99,3 +99,7 @@
 .techUsed{
     display: inline-block;
 }
+.projectLinks,.projectLinks:visited{
+    font-size:2rem;
+    color:#e76f51;
+}
