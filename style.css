@@ -58,10 +58,11 @@
 .t3{
     border:1px black solid;
 }
-.buildOne,.ideaCol{
+.buildOne,.ideaCol,.getContact{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Nunito', sans-serif;
 }
 .skillSet{
     background: #282736;
@@ -102,4 +103,11 @@
 .projectLinks,.projectLinks:visited{
     font-size:2rem;
     color:#e76f51;
+}
+.contact{
+    background: #eff1f3;
+}
+.rocket{
+    font-size:20vh;
+    color: #2176ff;
 }
