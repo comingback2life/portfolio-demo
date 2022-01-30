@@ -66,6 +66,7 @@
 }
 .skillSet{
     background: #282736;
+    padding:30px;
 }
 .skillSet>.row>.display-4{
     color:white;
